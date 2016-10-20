@@ -1,0 +1,53 @@
+html , body , #content {
+	margin:0;
+	padding:0;
+}
+
+table ,
+table th{
+	text-align:center;
+}
+/* Header */
+
+#is-header {
+	background:#9becff;
+	height:330px;
+}
+
+/* Navigation header */
+
+.nav-header {
+	float:right;
+	margin-top:12px;
+}
+
+.nav-header ul li {
+	list-style-type:none;
+	display:inline;
+}
+
+.nav-header a {
+	text-decoration:none;
+	color:#000;
+	padding-right:15px;
+}
+
+.nav-header a:hover {
+	text-decoration:underline;
+}
+
+/* Header Content */
+.header {
+	text-align:center;
+	padding-top:130px;
+}
+
+.header h3 {
+	font-size:32px;
+}
+
+/* Content */
+#is-content {
+	margin-top:15px;
+}
+
